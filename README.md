@@ -95,18 +95,20 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 > - [X] Migrate Java Backend to TypeScript
 > - [X] Setup Amplify and CI/CD
 > - [X] Create a user authentication system
+> - [X] Structure application PageState
 >
 >**Activity:** 
 > - [X] Create Amplify app 
+> - [X] Create Login, Logged-In, Search, Public, and Private Application States 
+> - [X] Redux-like implementation of Application PageStates
 > - [X] Research different authentication methods
-> - [X] Create a PageState class to hold user state
 >
 >**Important Docs, Commits, or Code Reviews**:
 > - Ensure the PageState changes are setup accordingly to user auth access permissions
 > - https://docs.amplify.aws/lib/auth/emailpassword/q/platform/js/#re-send-confirmation-code
 >
 >**Things learned:**
-> - [X] learn Angularjs and TypeScript
+> - [X] Redux concepts
 > - [X] Authentication system principles 
 > <br></br>
 ---
@@ -117,8 +119,11 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 > - [X] Start UI development
 >
 >**Activity:**
-> - [X] Create Graphql API
-> - [X] Start UI development
+> - [X] Graphql API intergration with Amplify
+> - [X] Search functionality with API, both public and private assets 
+> - [X] Sorting by an input param 
+> - [X] Serealization and deseralization of bucket data
+> - [X] Account activation and User Data Model to store User info
 >
 >**Important Docs, Commits, or Code Reviews**:
 > - https://angular.io/docs
@@ -133,8 +138,8 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 >
 >**Activity:**
 > - [X] UI bugs
-> - [X] Graphql API bugs
-> - [X] User file storage bugs
+> - [X] Graphql API optimizations
+> - [X] User file storage security
 > - [X] User authentication bugs
 >
 >**Important Docs, Commits, or Code Reviews**:
