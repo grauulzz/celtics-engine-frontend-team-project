@@ -3,8 +3,6 @@
 ## About
 This is a full stack project built on AWS Amplify with Angular and TypeScript. It provides a service for Celtics Game Engine users to search, save, and share game model assets.
 
----
-
 ## Problem Statement
 - The Users of the the game engine will need a way to share asset models they have created with other users.
 - The Asset Management web application should provide the nessesary functionality to allow users to share their assets with other users
@@ -77,8 +75,6 @@ application
 - Deployment will be handled by AWS Amplify
 - Amplify push cmd will be used to deploy the application to either production or development
 - Cloudformation will be used to create the necessary resources for the application
-
----
 
 # Accomplishment Tracking
 
