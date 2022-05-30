@@ -77,11 +77,11 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 
 >## Week 1:
 >**Goals:**
-> - Setup Data Model
+> - [X] Setup Data Model
 > 
 >**Activity:**
-> - Initailize s3 
-> - Create user file storage bucket and dir structure
+> - [X] Initailize s3 
+> - [X] Create user file storage bucket and dir structure
 > 
 >**Important Docs, Commits, or Code Reviews**:
 > - https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-inventory.html
@@ -92,38 +92,39 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 ---
 >## Week 2:
 >**Goals:**
->- Migrate to Amplify
->- Create a user authentication system
+> - [X] Migrate Java Backend to TypeScript
+> - [X] Setup Amplify and CI/CD
+> - [X] Create a user authentication system
 >
 >**Activity:** 
->- Create Amplify app 
->- Research different authentication methods
->- Create a PageState class to hold user state
+> - [X] Create Amplify app 
+> - [X] Research different authentication methods
+> - [X] Create a PageState class to hold user state
 >
 >**Important Docs, Commits, or Code Reviews**:
->- Ensure the PageState changes are setup accordingly to user auth access permissions
->- https://docs.amplify.aws/lib/auth/emailpassword/q/platform/js/#re-send-confirmation-code
+> - Ensure the PageState changes are setup accordingly to user auth access permissions
+> - https://docs.amplify.aws/lib/auth/emailpassword/q/platform/js/#re-send-confirmation-code
 >
 >**Things learned:**
->- learn Angularjs and TypeScript
->- how to create a user authentication system
+> - [X] learn Angularjs and TypeScript
+> - [X] how to create a user authentication system
 > <br></br>
 ---
 >## Week 3: 
 >**Goals:**
->- Setup Graphql API
->- Setup s3 bucket for user file storage
->- Start UI development
+> - [X] Setup Graphql API
+> - [X] Setup s3 bucket for user file storage
+> - [X] Start UI development
 >
 >**Activity:**
->- Create Graphql API
->- Start UI development
+> - [X] Create Graphql API
+> - [X] Start UI development
 >
 >**Important Docs, Commits, or Code Reviews**:
->- https://angular.io/docs
+> - https://angular.io/docs
 >
 >**Things learned:**
->- Learn Basic HTML and CSS
+> - HTML/CSS
 > <br></br>
 ---
 >### Week 4
@@ -131,15 +132,15 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 >Bugs and Feature cleanup 
 >
 >**Activity:**
->- UI bugs
->- Graphql API bugs
->- User file storage bugs
->- User authentication bugs
+> - [X] UI bugs
+> - [X] Graphql API bugs
+> - [X] User file storage bugs
+> - [X] User authentication bugs
 >
 >**Important Docs, Commits, or Code Reviews**:
->- https://angular.io/docs
+> - https://angular.io/docs
 >
 >**Things learned:**
->- Common UI bugs and optimizations
+> - Common UI bugs and optimizations
 > <br></br>
 
