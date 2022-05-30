@@ -77,6 +77,7 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 
 >## Week 1:
 >**Goals:**
+> - [X] Setup Tech Stack
 > - [X] Setup Data Model
 > - [X] Structure application and outline plan of execution with UML diagrams
 > 
