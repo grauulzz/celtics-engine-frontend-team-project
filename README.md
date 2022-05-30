@@ -41,13 +41,11 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 
 ### 2. Single Page Application & UI [Angular] 
 
-- Navigation bar will be explicity linked to the different PageStates of the 
-application 
+- Navigation bar will be explicity linked to the different PageStates of the application 
 - The PageState will have logic to determine permissions for the user
 - Redirect routes will be nessisary to handle some of the navigation
     - Redirect to the home page after login
     - Redirect to asset details page if thumbnail is clicked
-
 - UI pages
     - Login 
     - Profile 
@@ -59,7 +57,6 @@ application
 - Storage access rules:
     - Signed-in users: upload, view, and delete 
     - Signed-out users: view 
-
 - Asset upload to S3 Bucket from user local machine
 - Upload forms will be limited to zip files and images exclusivly
 - A storage cap will be set for the user to upload
