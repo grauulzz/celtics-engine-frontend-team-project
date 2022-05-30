@@ -89,7 +89,7 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 >**Things learned:**
 > - privacy best practices for user file storage and permissions
 > <br></br>
-
+---
 >## Week 2:
 >**Goals:**
 >- Migrate to Amplify
@@ -108,7 +108,7 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 >- learn Angularjs and TypeScript
 >- how to create a user authentication system
 > <br></br>
-
+---
 >## Week 3: 
 >**Goals:**
 >- Setup Graphql API
@@ -125,7 +125,7 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 >**Things learned:**
 >- Learn Basic HTML and CSS
 > <br></br>
-
+---
 >### Week 4
 >**Goals:**
 >Bugs and Feature cleanup 
