@@ -87,7 +87,7 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 > - https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-inventory.html
 > 
 >**Things learned:**
-> - privacy best practices for user file storage and permissions
+> - [X] privacy best practices for user file storage and permissions
 > <br></br>
 ---
 >## Week 2:
@@ -107,7 +107,7 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 >
 >**Things learned:**
 > - [X] learn Angularjs and TypeScript
-> - [X] how to create a user authentication system
+> - [X] Authentication system principles 
 > <br></br>
 ---
 >## Week 3: 
@@ -124,7 +124,7 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 > - https://angular.io/docs
 >
 >**Things learned:**
-> - HTML/CSS
+> - [X] UI intergration with backend
 > <br></br>
 ---
 >### Week 4
@@ -141,6 +141,7 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 > - https://angular.io/docs
 >
 >**Things learned:**
-> - Common UI bugs and optimizations
+> - [X] Common UI bugs
+> - [X] UI optimizations
 > <br></br>
 
