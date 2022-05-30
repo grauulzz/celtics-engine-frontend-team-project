@@ -78,11 +78,14 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 >## Week 1:
 >**Goals:**
 > - Setup Data Model
+> 
 >**Activity:**
 > - Initailize s3 
 > - Create user file storage bucket and dir structure
+> 
 >**Important Docs, Commits, or Code Reviews**:
 > - https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-inventory.html
+> 
 >**Things learned:**
 > - privacy best practices for user file storage and permissions
 > <br></br>
