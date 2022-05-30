@@ -45,16 +45,13 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 
 - Navigation bar will be explicity linked to the different PageStates of the 
 application 
-
 - The PageState will have logic to determine permissions for the user
-
 - Redirect routes will be nessisary to handle some of the navigation
     - Redirect to the home page after login
     - Redirect to asset details page if thumbnail is clicked
 
 - UI pages
     - Login 
-
     - Profile 
     - Asset Upload 
     - Asset Details
@@ -71,7 +68,6 @@ application
 
 ### 4. API [GraphQL]
 - Provides main functionality for public searchabe asset models
-
 - Queries will be used to retrieve asset models
 - Linked to S3 for identification of the asset model
 - Linked to cognito for authentication
@@ -82,7 +78,7 @@ application
 - Amplify push cmd will be used to deploy the application to either production or development
 - Cloudformation will be used to create the necessary resources for the application
 
-
+---
 
 # Accomplishment Tracking
 
