@@ -15,35 +15,32 @@ This is a full stack project built on AWS Amplify with Angular and TypeScript. I
 - What should the user experience be like?
 
 ## Client Use Cases
-- Post 3d asset models publicly so that others can use it their own work and/or get inspiration from it.
-- Browse the communities models and see what others have created.
-- See which assets I've publicly posted or shared with others.
-- Have the ability delete my assets from the community search page.
-- Have the ability to sort my assets by popularity and other basic search criteria.
+- Post 3d asset models publicly so others can use it and/or get inspiration from it.
+- Store 3d asset models on the cloud.
+- Browse public community models and see what others have created.
+- Ability for logged in user to remove their own assets from the community search page.
+- Ability to sort assets by popularity and browse the website WITHOUT having to create an account or login
 
 ## Project Scope
 - Create a single page application that allows users to manage and share their own custom asset models with other users publicly.
 - Retrieve and display the latest 3d assets from the community.
-- Make user profiles for reference and organization of which assets they have uploaded publicly.
 
 ## Out of Project Scope
-- Storage solution for ALL user asset models, not just the ones they would like to share
 - Ability to create or edit an asset model from the browser
-
 
 # Proposed Architecture Overview
 
-### 1. Users & Authentication [Conginto]
-- authentication and user managment will be handled by aws cognito
-- login and register with the application
-- confirmation email on registration
-- change password 
+### 1. Users & Authentication [AWS Conginto]
+- Authentication and user managment will be handled by aws cognito
+- Login and register with the application
+- Confirmation email on registration
+- Change password 
 
 ### 2. Single Page Application & UI [Angular] 
 
 - Navigation bar will be explicity linked to the different PageStates of the application 
 - The PageState will have logic to determine permissions for the user
-- Redirect routes will be nessisary to handle some of the navigation
+- Redirect routes will handle some of the navigation
     - Redirect to the home page after login
     - Redirect to asset details page if thumbnail is clicked
 - UI pages
